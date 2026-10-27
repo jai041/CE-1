@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #222;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.hero {
+    text-align: center;
+    background-color: lightblue;
+    padding: 35px;
+}
+
+.hero h2 {
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search {
+    flex: 1;
+}
+
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.product-card h3 {
+    margin: 10px;
+}
+
+.product-card p {
+    margin: 10px;
+}
+
+.product-icon {
+    font-size: 45px;
+}
+
+button {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: navy;
+}
+
+.product-card button {
+    width: 100%;
+}
+
+#cart-items {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.cart-item {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.remove-btn {
+    background-color: crimson;
+}
+
+.summary {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: auto;
+}
+
+.summary p, .summary h3 {
+    margin: 10px 0;
+}
+
+#coupon {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#apply-coupon, #checkout {
+    width: 100%;
+}
+
+#checkout {
+    background-color: green;
+}
+
+#checkout-section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#checkout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+#checkout-form input,
+#checkout-form select,
+#checkout-form textarea {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+#order-message {
+    color: green;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
